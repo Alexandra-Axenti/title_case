@@ -3,7 +3,6 @@ require('sinatra')
   also_reload('lib/**/*.rb')
   require('./lib/title_case')
   require('pry')
-  require('launchy')
 
   get('/') do
     erb(:form)
